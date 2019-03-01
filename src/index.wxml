@@ -1,0 +1,6 @@
+<view class='search-title'>{{titleValue}}</view>
+  <view class='search-content'>
+    <view class='search-item' wx:for="{{listData}}" wx:key="listData" bindtap="onItemTap" data-keyword="{{item}}">
+      {{item}}
+    </view>
+  </view>

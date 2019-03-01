@@ -1,0 +1,31 @@
+@import "./common.wxss";
+@import "./reset.wxss";
+
+.index {
+  color: green;
+}
+
+.search-title {
+  margin-left: 12px;
+  font-size: 13px;
+  color: #999;
+}
+.search-content {
+  display: flex;
+  padding-left: 12px;
+  padding-right: 12px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.search-item {
+  padding-left: 12px;
+  padding-right: 12px;
+  height: 30px;
+  line-height: 30px;
+  background: #f4f4f4;
+  border-radius: 2px;
+  margin-right: 12px;
+  margin-top: 12px;
+  color: #666;
+  font-size: 14px;
+}
