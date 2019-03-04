@@ -1,7 +1,11 @@
 {
   "name": "miniprogram-suggest",
   "version": "1.0.3",
-  "description": "",
+  "description": "miniprogram suggest",
+  "keywords":[
+    "miniprogram",
+    "suggest"
+  ],
   "main": "miniprogram_dist/index.js",
   "scripts": {
     "dev": "gulp dev --develop",
