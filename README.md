@@ -34,6 +34,6 @@ npm install --save miniprogram-suggest
 |-------------------------|--------------|-----------------------|-----------------------------------------------------------|
 | titleValue                   | String       | ''                    | 标题                          |
 | listData                 | Array      | []                 | 数据集                                                   |
-| titleStyle              | String  |                       | 标题样式，如'color: #999;'|
-| itemStyle              | String  |                       | item样式，如'color: #666;background-color:#f4f4f4'|
+| titleStyle              | String  | color: #999;        | 标题样式|
+| itemStyle              | String  | color: #666;background-color:#f4f4f4 | item样式|
 | myevent              | EventHandle  |                       | 数据集item点击事件|
