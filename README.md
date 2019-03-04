@@ -25,7 +25,7 @@ npm install --save miniprogram-suggest
 3. WXML 文件中引用 suggest
 
 ``` xml
-<suggest titleValue="大家都在搜" listData="{{listData}}"></suggest>
+<suggest titleValue="大家都在搜" listData="{{listData}}" titleStyle="{{titleStyle}}" itemStyle="{{itemStyle}}"></suggest>
 ```
 
 **datepicker的属性介绍如下：**
@@ -34,4 +34,6 @@ npm install --save miniprogram-suggest
 |-------------------------|--------------|-----------------------|-----------------------------------------------------------|
 | titleValue                   | String       | ''                    | 标题                          |
 | listData                 | Array      | []                 | 数据集                                                   |
+| titleStyle              | String  |                       | 标题样式，如'color: #999;'|
+| itemStyle              | String  |                       | item样式，如'color: #666;background-color:#f4f4f4'|
 | myevent              | EventHandle  |                       | 数据集item点击事件|
